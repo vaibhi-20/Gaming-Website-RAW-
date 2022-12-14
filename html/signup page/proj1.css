@@ -1,0 +1,39 @@
+.container{
+    margin: 0px;
+    padding: 0.7px;
+    background-color: orange;
+    box-shadow: rgb(112, 81, 24);    
+}
+h1{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(255,0,0);
+    font-size:100px;
+
+}
+body{
+    background-color: blue;
+    text-shadow: 2px 2px #ff00d4;
+
+
+}
+select{
+    box-shadow: 0.7 green;
+}
+form{
+    background-color: rgb(255, 166, 0);
+    padding-left: 37%;
+
+}
+.input{
+    text-align: center;
+}
+a{
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+

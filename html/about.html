@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel = "icon" href = 
+    "raw logo2.jpeg" 
+            type = "image/x-icon">
+    <title> ABOUT WEBSITE</title>
+</head>
+
+<body style="background-color:black;">
+    <section>
+        <h1 style="text-align: center; font-size: 60px;background-color:bisque; color:brown">ABOUT RAW
+        </h1>
+        <div class="img"> <img src="C:\Users\Vaibhav Malhotra\OneDrive\Desktop\raw logo.jpeg"></div>
+        <p style="color:aliceblue">OUR Website name is <strong>RAW</strong> which is game based website where in
+            particular you cannot play games
+            but can see basic animations and how the defined games look like. Our website is shortcut path from where
+            you
+            can access games website. <br>Also, we have displayed the minimum or recommended <br>requirements you need
+            for each and
+            every game.
+            <br> The defined games are Valorant, Gta-5, Among Us,<br> Rocket League, Call of Duty MW2.<br>The
+            programming languages used to make this website are
+            <br> Html, CSS, javascript.
+            <button class="open-button" onclick="openForm()">Open Form</button>
+        </p>
+
+        
+    </section>
+    <section>
+
+        <form style="background-color:grey"></form>
+        <div class="form-popup" id="myForm">
+            <h1>FeedBack</h1>
+
+        
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+            <label for="feedback"><b>feedback</b></label>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+
+            <button type="submit" class="btn">Raw</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+
+            function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+        </section>
+        <section>
+         
+                    <div class="stry">
+                     
+            <h2 >RAW STORY</h2>
+            <p style="color:aliceblue">Technology never sleeps, nor should the action. <br>For those keen <br>on winning power, <br>the RAW
+                awaits. Driven by relentless innovation,
+                <br> RAW is committed to producing out-of-this-world experiences for gamers and enthusiasts everywhere.
+            </p>
+           
+        </div>
+        </section>
+        <section></section>
+        <section style="background-color: #81c664">
+        <hr>
+        <div class="wrapper">
+                    <h3>OUR TEAM</h3>
+        <div class="team">
+            <div class="team_member">
+                <h4>Vaibhav Malhotra(leader)</h4>
+                <p class="role">***</p>
+                 <p>Did programming, design and animations of the website</p>
+            </div>
+            <div class="team_member">
+                <h4>Harmeek Wazir</h4>
+                <p class="role">***</p>
+                <p>Gave ideas did logo design and sign-up form</p>
+            </div>
+            <div class="team_member">
+                <h4>Tanish Chopra</h4>
+                <p class="role">***</p>
+                <p>Gave ideas and did Among Us page code. </p>
+            </div>
+        </div>
+        </div>
+</section>
+    
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="proj3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "icon" href = 
+"C:\Users\Vaibhav Malhotra\OneDrive\Desktop\raw logo.jpeg" 
+        type = "image/x-icon">
+
+</head>
+
+<body style="background-color:black">
+ 
+
+    
+
+    <div class="topnav">
+        <a href="signup page\proj1.html">Login</a>
+        <a href="about.html">ABOUT</a>
+        <a href="call_of_duty.html">Call Of Duty Mw2</a>
+        <a href="among_us.html">Among Us</a>
+      <a href="rocket_league.html">Rocket League</a>
+      <a href="gta-5.html">Gta 5</a>
+      <a href="valorant.html">Valorant</a>
+      <a class="active"href="proj3.html">Home</a>
+    </div>
+    <nav class="navigation-bar">
+      <img class="logo" src="C:\Users\Vaibhav Malhotra\OneDrive\Desktop\raw logo.jpeg">
+      <h1 style="font-family: 'Zen Dots', cursive; color: rosybrown;">RAW</h1>
+  
+  </nav>
+    <div2 class="slideshow-container">
+<center>
+      <div2 class="mySlides fade">
+        <div3>
+          <img src="C:\Users\Vaibhav Malhotra\Downloads\WhatsApp Image 2022-12-08 at 8.44.21 PM.jpeg"
+            style="width: 900px; height: 500px;">
+          <div2 class="text"></div2>
+      </div2>
+  
+      <div2 class="mySlides fade">
+        <img src="C:\Users\Vaibhav Malhotra\Downloads\WhatsApp Image 2022-12-08 at 8.44.36 PM.jpeg"
+          style="width: 900px; height: 500px;">
+        <div2 class="text"></div2>
+      </div2>
+  
+      <div2 class="mySlides fade">
+        <img src="C:\Users\Vaibhav Malhotra\Downloads\WhatsApp Image 2022-12-08 at 8.34.43 PM.jpeg"
+          style="width:900px; height: 500px;">
+        </div3>
+        <div2 class="text"></div2>
+      </div2>
+  <center>
+    </div2>
+    <br>
+  
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  
+   <script>
+      let slideIndex = 0;
+      showSlides();
+  
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000);
+      }
+    </script>
+  
+    
+</body>
+    </html>
+    

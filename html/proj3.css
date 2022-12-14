@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 35px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: wheat;
+  font-size: 12px;
+  padding: 100px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+div3{
+    border: 5px solid #555;
+}}
+.slideshow-container .mySlides img {
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.navigation-bar {
+  width: 100%;  /* i'm assuming full width */
+  height: 150px; /* change it to desired width */
+  background-color: black; /* change to desired color */
+  font-family: 'Bungee Shade', cursive;
+  font-size: xx-large;
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+.logo {
+  display:inline-block;
+  position: absolute;
+  left: 2%;
+  vertical-align: top;
+  width: 90px;
+  height: 90px;
+  margin-right: 50px;
+  margin-top: -163px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  height: 80px;        /* if you want it to take the full height of the bar */
+  line-height: 80px;    /* if you want it vertically middle of the navbar */
+  font-family: 'Bungee Shade', cursive;
+}
+.navigation-bar h1{
+  font-size: 90px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+h1{
+  text-shadow: #04AA6D;
+}

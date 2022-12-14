@@ -1,0 +1,175 @@
+h1 {
+    float: center;
+
+}
+
+h2 {
+    margin-left: 20px;
+} 
+
+P {
+    text-align: left;
+    border-radius: 2px;
+    font-size: xx-large;
+    margin-left: 20px;
+}
+
+.img {
+    width: 90px;
+    height: 90px;
+    float: right;
+    padding-right: 600px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: rgb(17, 13, 13);
+    color: white;
+    padding: 35px 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: absolute;
+    bottom: -65px;
+    right: 28px;
+    width: 155px;
+    height: 105px;
+    margin-left: 1330px;
+
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #544f4f;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(123, 48, 48);
+}
+
+/* Full-width input fields */
+.form-container input[type=text],
+.form-container input[type=feedback] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #432e2e;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus,
+.form-container input[type=feedback]:focus {
+    background-color: #ddd;
+    outline: none;
+
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #77b69f;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.stry {
+    background-color: #04AA6D;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #81c644;
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.wrapper {
+    margin-top: 10%;
+
+}
+
+.wrapper h3 {
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 62px;
+    text-align: center;
+    
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team_member{
+    background-color: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    color: #8e8b8e;
+    position: relative;
+
+}
+.team .team_member h3{
+    color:#81c644;
+    font-size: 26px;
+    margin-top:50px;
+}
+.team .team_member p.role{
+    font-size: 12px;
+    margin: 12px 0;
+    text-align:center;
+}
+.team .team_member .team_imag{
+    width: 100px;
+    height: 100px;
+    
+}
+.team .team_member .team_imag img{
+    width:100px;
+    height:100px;
+    margin-top: -60px;
+    margin-left: 80px;
+}
